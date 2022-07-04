@@ -33,7 +33,7 @@ phases:
 #      - npm run test:ci
 
       - echo Running unit tests over serverless app...
-#      - npm run sam:test
+      - npm run sam:test
 
       - echo Building a project...
       - npm run build --configuration=${BUILD_CONFIGURATION}
